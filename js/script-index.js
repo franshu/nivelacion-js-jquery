@@ -19,11 +19,12 @@ function renderHighlightedRecipes(recipesArray) {
 	console.log("recipesArray");
 	recipesArray.forEach(function(elemento){
 	if(elemento.highlighted == true){
- 	recipesArray(elemento)};
+ 	renturnrecipesArray(elemento)};
 });
-
 	console.log('Recipes: ', recipesArray);
 }
+
+
 
 /*
 * Función que se encarga de pintar UNA recetas que tenga 
