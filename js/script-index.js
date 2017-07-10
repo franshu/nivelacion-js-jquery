@@ -16,10 +16,11 @@ printNews();
 * marcado el atributo "highlighted" como TRUE
 */
 function renderHighlightedRecipes(recipesArray) {
-	console.log("recipesArray");
+
 	recipesArray.forEach(function(elemento){
 	if(elemento.highlighted == true){
- 	renturnrecipesArray(elemento)};
+ 	renderRecipe(elemento);
+ }
 });
 	console.log('Recipes: ', recipesArray);
 }
