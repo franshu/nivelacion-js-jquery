@@ -19,11 +19,7 @@ function renderHighlightedRecipes(recipesArray) {
 	console.log("recipesArray");
 	recipesArray.forEach(function(elemento){
 	if(elemento.highlighted == true){
- 	recipesArray()};
-	$(".recipesArray").append("elemento");
-
-	/*$.each([ 52, 97 ], function( index, value ) { //recorrer arreglo en ajax
-  	alert( index + ": " + value );*/
+ 	recipesArray(elemento)};
 });
 
 	console.log('Recipes: ', recipesArray);
