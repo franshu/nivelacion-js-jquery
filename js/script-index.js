@@ -11,12 +11,21 @@ printNews();
 
 });
 
-
 /*
 * Función que se encarga de pintar TODAS las recetas que tengan 
 * marcado el atributo "highlighted" como TRUE
 */
 function renderHighlightedRecipes(recipesArray) {
+	console.log("recipesArray");
+	recipesArray.forEach(function(elemento){
+	if(elemento.highlighted == true){
+ 	recipesArray()};
+	$(".recipesArray").append("elemento");
+
+	/*$.each([ 52, 97 ], function( index, value ) { //recorrer arreglo en ajax
+  	alert( index + ": " + value );*/
+});
+
 	console.log('Recipes: ', recipesArray);
 }
 
