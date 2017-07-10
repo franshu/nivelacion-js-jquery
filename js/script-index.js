@@ -1,7 +1,13 @@
 $(document).ready( function(){
 	$('.js-back').hide(); //oculto mediante clase
+
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
 	renderHighlightedRecipes(recipesArray);
+//nivel 2, imprimir funcion en NEWS
+function printNews(){
+	$("#pintarN").text('Nuevas recetas');//agregar texto a news
+}
+printNews();
 
 });
 
