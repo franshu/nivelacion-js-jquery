@@ -1,5 +1,5 @@
 $(document).ready( function(){
-
+	$('.js-back').hide(); //oculto mediante clase
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
 	renderHighlightedRecipes(recipesArray);
 
